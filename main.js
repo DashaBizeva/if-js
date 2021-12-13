@@ -10,8 +10,8 @@ console.log(user);
 // Задание 7
 let test = 1;
 test = test++;
-test = test + 1;
-// мой ответ: 2
+test = test + '1';
+// мой ответ: 11
 console.log(test);
 test = test - 1;
 //мой ответ 1
@@ -39,7 +39,7 @@ for (let i = 0; i < ex9.length; i++) {
 //Задание 10
 let ex10 = [2, 5, 8, 15, 0, 6, 20, 3];
 for (let i = 0; i < ex10.length; i++) {
-    if ((ex10[i] % 2) === 0) {
+    if (ex10[i] % 2 === 0) {
         console.log(ex10[i]);}
 }
 
