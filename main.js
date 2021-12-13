@@ -53,10 +53,10 @@ function isPalindrome(str) {
         return false;
     }
 }
-test = isPalindrome('шалаш');
-test2 = isPalindrome('даша');
-console.log(test);
-console.log(test2);
+let check = isPalindrome('шалаш');
+let check2 = isPalindrome('даша');
+console.log(check);
+console.log(check2);
 
 // ДЗ 3 задание 6
 function min(a, b) {
